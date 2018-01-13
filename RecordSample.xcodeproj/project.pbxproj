@@ -14,6 +14,8 @@
 		8E3366B12008FACF00248927 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E3366AF2008FACF00248927 /* LaunchScreen.storyboard */; };
 		8E3366BC2008FACF00248927 /* RecordSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3366BB2008FACF00248927 /* RecordSampleTests.swift */; };
 		8E3366C72008FACF00248927 /* RecordSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3366C62008FACF00248927 /* RecordSampleUITests.swift */; };
+		8ED3B1A82009036A004A284A /* Sp106-001.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8ED3B1A720090369004A284A /* Sp106-001.mp3 */; };
+		8ED3B1AB2009F811004A284A /* sp106 in Resources */ = {isa = PBXBuildFile; fileRef = 8ED3B1AA2009F811004A284A /* sp106 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		8E3366C22008FACF00248927 /* RecordSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RecordSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E3366C62008FACF00248927 /* RecordSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordSampleUITests.swift; sourceTree = "<group>"; };
 		8E3366C82008FACF00248927 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8ED3B1A720090369004A284A /* Sp106-001.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Sp106-001.mp3"; sourceTree = "<group>"; };
+		8ED3B1AA2009F811004A284A /* sp106 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = sp106; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,8 @@
 		8E3366A52008FACF00248927 /* RecordSample */ = {
 			isa = PBXGroup;
 			children = (
+				8ED3B1AA2009F811004A284A /* sp106 */,
+				8ED3B1A720090369004A284A /* Sp106-001.mp3 */,
 				8E3366A62008FACF00248927 /* AppDelegate.swift */,
 				8E3366A82008FACF00248927 /* ViewController.swift */,
 				8E3366AA2008FACF00248927 /* Main.storyboard */,
@@ -233,8 +239,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				8E3366B12008FACF00248927 /* LaunchScreen.storyboard in Resources */,
+				8ED3B1AB2009F811004A284A /* sp106 in Resources */,
 				8E3366AE2008FACF00248927 /* Assets.xcassets in Resources */,
 				8E3366AC2008FACF00248927 /* Main.storyboard in Resources */,
+				8ED3B1A82009036A004A284A /* Sp106-001.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
